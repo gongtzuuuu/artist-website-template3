@@ -50,11 +50,6 @@ a {
     color: black;
 }
 
-::selection {
-    color: white;
-    background: #B0B0B0;
-}
-
 /*CONTAINER*/
 .container  {
     display: flex;
@@ -104,7 +99,6 @@ a {
 .profile-area {
     position: relative;
     display: flex;
-    flex-direction: row;
 }
 
 .profile-pic-area {
@@ -250,7 +244,7 @@ p.footer-text {
 .project-list-pic img {
     width: 100%;
     height: 100%;
-    border-radius: 0px 30px 0px 0px;
+    border-radius: 20px 0 20px 0;
 }
 
 .project-list-text {
@@ -280,6 +274,7 @@ p.footer-text {
 
 /* BLOG-LIST AREA */
 /* BLOG-LIST AREA */
+
 .blog-list-area {
     display: flex;
     flex-wrap: nowrap;
@@ -288,12 +283,10 @@ p.footer-text {
 .sidebar-area {
     width: 250px;
     padding: 80px 50px;
-    display: flex;
-    justify-content: center;
     border-right: #B0B0B0 1px solid;
 }
 
-.sidebar {
+.sidebar, .blog-list {   
     display: flex;
     flex-direction: column;
 }
@@ -302,15 +295,11 @@ p.footer-text {
     margin: 2px 0;
 }
 
-/* .blog-list {
-        margin: 80px 50px;
-        display: flex;
-        flex-direction: column;
-    } */
-
 .blog-list-wrap {
-    padding: 80px 100px;
     width: 1080px;
+    padding: 80px 100px;
+    /* display: flex; */
+    /* justify-content: flex-start; */
 }
 
 .tags {
