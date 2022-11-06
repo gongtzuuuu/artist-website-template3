@@ -283,18 +283,17 @@ p.footer-text {
 .blog-list-area {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
 }
 
 .sidebar-area {
-    width: 350px;
-    /* display: flex;
-    justify-content: center; */
+    width: 250px;
+    padding: 80px 50px;
+    display: flex;
+    justify-content: center;
     border-right: #B0B0B0 1px solid;
 }
 
 .sidebar {
-/*     margin: 80px 50px; */
     display: flex;
     flex-direction: column;
 }
@@ -310,9 +309,8 @@ p.footer-text {
     } */
 
 .blog-list-wrap {
+    padding: 80px 100px;
     width: 1080px;
-    /* display: flex; */
-    /* justify-content: flex-start; */
 }
 
 .tags {

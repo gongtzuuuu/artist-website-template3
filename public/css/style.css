@@ -99,7 +99,6 @@ a {
 .profile-area {
     position: relative;
     display: flex;
-    flex-direction: row;
 }
 
 .profile-pic-area {
@@ -274,21 +273,25 @@ p.footer-text {
 
 /* BLOG-LIST AREA */
 /* BLOG-LIST AREA */
+
 .blog-list-area {
     display: flex;
     flex-wrap: nowrap;
-    justify-content: center;
 }
+
+.sidebar-area, .blog-list-wrap {
+    margin: 80px 50px;
+}
+
+
 
 .sidebar-area {
     width: 350px;
-    /* display: flex;
-    justify-content: center; */
     border-right: #B0B0B0 1px solid;
 }
 
 .sidebar, .blog-list {
-/*     margin: 80px 50px; */
+    
     display: flex;
     flex-direction: column;
 }
